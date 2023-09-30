@@ -20,8 +20,8 @@ Tornare "+391231231234"
 Se arriva "3", "05417723",  "00391231231230"
 Tornare ""
 
-#etc
-Inizio risuluzione
+etc
+## Inizio risuluzione
 Inizializzare un stinga vuota e un itero, la stringa la useremo per tornare il numero di telefono e l'intero invece ci servirà per controllare se nella striga ci siano spazzi vuoti
 ```c#
 string d="";
