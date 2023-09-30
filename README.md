@@ -27,3 +27,7 @@ Inizializzare un stinga vuota e un itero, la stringa la useremo per tornare il n
 string d="";
 int f=1000;
 ```
+Creare poi un ciclo for che scorra tutto il vettore di stringhe
+```c#
+ for(int i=0;i<input.Length;i++)
+```
