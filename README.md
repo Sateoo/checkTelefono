@@ -38,8 +38,8 @@ string s= input[i];
 Sempre all'interno del for ne creeremo un altro con lo scopo di controllare se all'interno della stringa appena iniziallizata ci sono degli spazzi, se ci sono la strigna verra posta uguale a "" perchè compromessa
 ```c#
 for(int j=0;j<s.Length;j++)
-            {
-                if(s[j]==' ')
-                    s="";
-            }
+ {
+   if(s[j]==' ')
+   s="";
+ }
 ```
