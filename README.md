@@ -31,3 +31,15 @@ Creare poi un ciclo for che scorra tutto il vettore di stringhe
 ```c#
  for(int i=0;i<input.Length;i++)
 ```
+All'interno del for inizializzare un'altra strigna in cui salveremo ad ogni giro una striga del vettore
+```
+string s= input[i];
+```
+Sempre all'interno del for ne creeremo un altro con lo scopo di controllare se all'interno della stringa appena iniziallizata ci sono degli spazzi, se ci sono la strigna verra posta uguale a "" perchè compromessa
+```c#
+for(int j=0;j<s.Length;j++)
+            {
+                if(s[j]==' ')
+                    s="";
+            }
+```
